@@ -1,0 +1,40 @@
+img {
+    background-image: url("./images/taco.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    color: rgb(148, 9, 9);
+    text-align: center;
+}
+.grid-container > body {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  gap: 10px;
+  background-color: orange;
+  padding: 10px;
+}
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+body {
+    background-color: crimson;
+    width: 300px;
+    border: 20px solid goldenrod;
+    padding: 50px;
+    margin: 20px;
+}
+#border {
+    border-top: 5px groove #a00c20;
+    border-bottom: 5px groove #a41c1c;
+}
+  
+  
+  
